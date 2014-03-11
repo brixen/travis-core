@@ -13,7 +13,7 @@ gem 'json', '~> 1.7.7'
 gem 'dalli'
 gem 'connection_pool'
 
-platform :mri do
+platform :ruby do
   gem 'bunny',            '~> 0.7.9'
   gem 'pg',               '~> 0.14.0'
 end
